@@ -1,0 +1,40 @@
+
+$base-color: #f9314b;
+$base-color2: #045cf0;
+$white: #fff;
+$body-color: #a1aed4;
+$heading-color: #FFF;
+$star-color: #fc9715;
+$bg-color1: #070b28;
+$bg-color2: #0b122e;
+
+
+$facebook: #0069f7;
+$twitter: #00c6f7;
+$dribbble: #f7007a;
+$google-plus: #d1062c;
+$linkedin: #007bb5;
+
+
+
+/* Typography */
+
+@import url('https://fonts.googleapis.com/css?family=Open+Sans:300,400,600,700,800|Ubuntu:300,400,500,700');
+$body-font: 'Open Sans', sans-serif;
+$heading-font: 'Ubuntu', sans-serif;
+//== font sizes
+$base-font-size: 18px !default;
+$font-size-h1: 60px !default;
+$font-size-h2: 52px !default;
+$font-size-h3: 26px !default;
+$font-size-h4: 22px !default;
+//** Unit-less `line-height` for use in components like buttons.
+$line-height: 1.6 !default;
+// border-radius
+$border-radius-5: 5px !default;
+$border-radius-25: 25px !default;
+$border-radius-3: 3px !default;
+$border-radius-circle: 50% !default;
+//  transition
+$transition: all .3s ease-in;
+$transition-long: all .5s ease-in;

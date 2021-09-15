@@ -1,0 +1,109 @@
+/* Bonuses Area Start */
+.bonus-area{
+    padding: 112px 0px 90px;
+    background: $bg-color2;
+    .section-heading{
+        margin-bottom: 58px;
+    }
+}
+.single-bonus{
+    height: 350px;
+    margin-bottom: 55px;
+    display: block;
+    text-align: center;
+    border:1px solid rgb(39, 59, 113);
+    border-radius: 10px;
+    box-shadow: 0px 10px 15px 0px rgba(0, 0, 0, 0.4);
+    position: relative;
+    transition: $transition;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    .content{
+        img{
+            animation: opacityAnimation 2s linear infinite;
+            display: inline-block;
+            margin-bottom: 22px;
+        }
+        .title{
+            font-size: 24px;
+            line-height: 34px;
+            font-weight: 700;
+            text-transform: uppercase;
+        }
+    }
+    
+    .mybtn2{
+        position: absolute;
+        display: block;
+        height: 50px;
+        bottom: -25px;
+        left: 50%;
+        transform: translateX(-50%);
+        box-shadow: 0px 10px 15px 0px rgba(0, 0, 0, 0.4);
+    }
+    &:hover{
+        border-color: #681f40;
+        transform: translateY(-10px);
+    }
+}
+/* Bonuses Area End */
+
+/*Deposit Bonuses Area Start */
+
+.deposit-bonuses{
+    padding: 112px 0px 120px;
+    background: $bg-color1;
+    .section-heading{
+        margin-bottom: 58px;
+    }
+}
+
+.single-deposit-bonus{
+    display: block;
+    text-align: center;
+    border:1px solid rgb(39, 59, 113);
+    border-radius: 10px;
+    padding: 30px 40px 28px;
+    box-shadow: 0px 10px 15px 0px rgba(0, 0, 0, 0.4);
+    transition: $transition;
+    .content{
+        img{
+            display: inline-block;
+            margin-bottom: 22px;
+        }
+        .title{
+            font-size: 28px;
+            line-height: 38px;
+            font-weight: 700;
+            text-transform: uppercase;
+            margin-bottom: 14px;
+        }
+        p{
+            font-size: 18px;
+            line-height: 28px;
+            margin-bottom: 0px;
+        }
+    }
+    &:hover{
+        border-color: #681f40;
+        transform: translateY(-10px);
+    }
+}
+
+/*Deposit Bonuses Area End */
+
+
+/* Bonus banner Area Start */
+.bonus-banner{
+    display: block;
+    padding: 112px 0px 120px;
+    background: url(../images/bonus/bg-bonus.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    .mybtn1{
+        margin-top: 42px;
+    }
+}
+/* Bonus banner Area End */

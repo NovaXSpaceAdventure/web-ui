@@ -1,0 +1,157 @@
+/* login modal Area Start */
+.login-modal{
+    .modal-dialog{
+        .modal-content{
+            background: #252f5a;
+            border-radius: 10px;
+            .modal-body{
+                padding: 0px;
+                .logo-area{
+                    display: block;
+                    text-align: center;
+                    position: relative;
+                    &::after{
+                        position: absolute;
+                        content: "";
+                        width: 135px;
+                        height: 135px;
+                        border-radius: 50%;
+                        background: #252f5a;
+                        top: -65px;
+                        left: 050%;
+                        transform: translateX(-50%);
+                    }
+                    img{
+                        display: inline-block;
+                        max-width: 100px;
+                        position: relative;
+                        z-index: 9;
+                        top: -4px;
+                    }
+                }
+                .header-area{
+                    padding: 47px 30px 10px;
+                    position: relative;
+                    z-index: 9;
+                    text-align: center;
+                    .title{
+                        font-size: 24px;
+                        line-height: 34px;
+                        font-weight: 700;
+                        color: #fff;
+                        text-transform: uppercase;
+                        margin-bottom: 2px;
+                    }
+                    .sub-title{
+                        font-size: 24px;
+                        line-height: 34px;
+                        font-weight: 300;
+                    }
+                }
+                .form-area{
+                    padding: 0px 30px 10px;
+                    .form-group{
+                        margin-bottom: 10px;
+                        .box{
+                            display: flex;
+                            justify-content: space-between;
+                            label{
+                                font-size: 16px;
+                                font-weight: 400;
+                                color: $body-color;
+                                text-transform: capitalize;
+                            }
+                            a{
+                                font-size: 16px;
+                                font-weight: 400;
+                                color: $body-color;
+                                text-transform: capitalize;
+                            }
+                        }
+                        .check-group{
+                            label{
+                                font-size: 14px;
+                                font-weight: 400;
+                                color: $body-color;
+                                text-transform: capitalize;
+                                a{
+                                    color: $base-color;
+                                }
+                            }
+                        }
+                    }
+                    label{
+                        font-size: 18px;
+                        line-height: 28px;
+                        color: #fff;
+                        font-weight: 600;
+                        margin-bottom: 4px;
+                    }
+                    .input-field{
+                        width: 100%;
+                        border: 0px;
+                        height: 50px;
+                        font-size: 14px;
+                        color: $body-color;
+                        background: none;
+                        border-bottom: 1px solid rgba(rgb(255, 255, 255), 0.2);
+                        @include placeholder-color($body-color);
+                        margin-bottom: 12px;
+                    }
+                    select{
+                        margin-top: 8px;
+                        width: 100%;
+                        height: 50px;
+                        border: 1px solid rgba(255, 255, 255, 0.1);
+                        border-radius: 50px;
+                        background: #273261;
+                        padding: 0px 30px;
+                        color: #fff;
+                        text-transform: uppercase;
+                    }
+                    .mybtn1{
+                        margin-top: 22px;
+                        display: block;
+                        width: 100%;
+                    }
+                }
+                .form-footer{
+                    text-align: center;
+                    padding: 0px 30px 6px;
+                    a{
+                        transition: $transition;
+                        color: #fff;
+                        i{
+                            font-size: 14px;
+                        }
+                        &:hover{
+                            color: $base-color;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+.login-modal.sign-in{
+    .modal-body{
+        .form-area{
+            padding-bottom: 18px!important;
+        }
+    }
+}
+.modal-dialog .modal-content {
+    position: relative;
+}
+
+.modal-dialog .modal-content .close {
+    position: absolute;
+    right: 9px;
+    z-index: 9;
+}
+
+.modal-dialog .modal-content .close span {
+    color: #fff;
+    font-size: 20px;
+}
+/* login modal Area End */

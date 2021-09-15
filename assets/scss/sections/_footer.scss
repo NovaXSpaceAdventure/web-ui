@@ -1,0 +1,175 @@
+/* Footer Area Start */
+
+.footer{
+  padding-top: 120px;
+  overflow: hidden;
+  position: relative;
+  background-color: $bg-color1;
+  background-image: url(../images/footerbg.jpg);
+  background-repeat: no-repeat;
+  background-position: center 140px;
+  background-size: cover;
+  .footer-logo{
+    margin-top: -10px;
+    margin-bottom: 25px;
+  }
+  
+  .footer-widget{
+    .title{
+      text-transform: uppercase;
+      font-size: 28px;
+      line-height: 38px;
+      font-weight: 600;
+      text-transform: uppercase;
+    }
+    ul{
+      padding-left: 0px;
+      margin-bottom: 0px;
+      li{
+        list-style: none;
+        a{
+          transition: $transition;
+          line-height: 40px;
+          font-weight: 400;
+          color: $body-color;
+          &:hover{
+            color: $base-color;
+            padding-left: 10px;
+          }
+        i{
+          font-size: 15px;
+          padding-right: 4px;
+        }
+      }
+    }
+  }
+  }
+          
+  .copy-bg{
+    margin-top: 110px;
+    padding: 10px 15px 10px;
+    border-top: 1px solid rgba(#fff, 0.2);
+    background: #0b122e;
+    .left-area{
+        p{
+          font-size: 16px;
+          line-height: 26px;
+          margin-bottom: 0px;
+        }
+        a{
+          font-size: 16px;
+          line-height: 26px;
+          margin-bottom: 0px;
+          color: $base-color2;
+        }
+    }
+    .copright-area-links{
+      text-align: right;
+      li{
+        display: inline-block;
+        margin-right: 30px;
+        position: relative;
+        &::after{
+          position: absolute;
+          content: "|";
+          right: -22px;
+          top: 0px;
+        }
+        &:last-child{
+          margin-right: 0px;
+          &::after{
+            display: none;
+          }
+        }
+        a{
+          font-size: 16px;
+          font-weight: 400;
+          color: $body-color;
+          transition: $transition;
+          &:hover{
+            color: $base-color;
+          }
+        }
+      }
+    }
+
+  }
+     
+  .subscribe-box{
+    margin-bottom: 110px;
+    z-index: 99;
+    background: url(../images/newsletter.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    padding: 53px 60px 55px;
+    box-shadow: 0px 10px 20px rgba(#000, .1);
+    .heading-area{
+      text-align: center;
+      .sub-title{
+        font-size: 24px;
+        font-weight: 600;
+        line-height: 34px;
+        text-transform: uppercase;
+        margin-bottom: 10px;
+        @include gradient-text();
+      }
+      .title{
+        font-size: 40px;
+        line-height: 50px;
+        font-weight: 700;
+        margin-bottom: 50px;
+        text-transform: uppercase;
+      }
+    }
+    .icon{
+      width: 100%;
+      text-align: right;
+      img{
+        display: inline-block;
+      }
+    }
+    .form-area{
+      width: 100%;
+        input{
+          width: 100%;
+          height: 50px;
+          background: none;
+          border: 0px;
+          border-bottom: 1px solid #b4b8d1;
+          border-radius: 0px;
+          color: $body-color;
+          @include placeholder-color($body-color);
+        }
+    }
+    .button-area{
+      width: 100%;
+      .mybtn1{
+        display: block;
+        width: 100%;
+        height: 50px;
+        position: relative;
+        background-image: linear-gradient(to right, rgb(255, 52, 77), rgb(210, 39, 60));
+        span{
+          position: absolute;
+          top: 0;
+          right: 0px;
+          width: 50px;
+          height: 50px;
+          text-align: center;
+          line-height: 50px;
+          background: #db5263;
+          border-radius: 50%;
+        }
+        &:hover{
+          
+          background-image: linear-gradient(to left, rgb(255, 52, 77), rgb(210, 39, 60));
+        }
+      }
+    }
+
+  }
+    
+}
+
+

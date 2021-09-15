@@ -1,0 +1,142 @@
+/* faq-section css start */
+
+.faq-section{
+    background: $bg-color2;
+    padding: 111px 0px 120px;
+    .card{
+        background: #1c294e!important;
+    }
+    .section-heading{
+        margin-bottom: 53px;
+        .subtitle{
+          margin-bottom: 15px;
+        }
+    }
+}
+
+
+
+
+.faq-wrapper .nav-tabs {
+    border: none;
+    justify-content: center;
+  }
+  .faq-wrapper .tab-content {
+    padding: 0 150px;
+  }
+  .faq-wrapper .nav-item .nav-link {
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 26px;
+    color: #fff;
+    background: #1c294e;
+    text-transform: uppercase;
+    padding: 8px 30px;
+    margin: 5px 10px;
+    border: none;
+    border-radius: 50px;
+    box-shadow: 0px 10px 15px 0px rgba(0, 0, 0, 0.4);
+  }
+  .faq-wrapper .nav-item .nav-link.active {
+    background: linear-gradient(to right, rgb(255, 52, 77), rgb(210, 39, 60));
+  }
+
+  .faq-wrapper .nav-item+.nav-item {
+    margin-left: 0px;
+  }
+  .faq-wrapper .tab-content {
+    margin-top: 37px;
+  }
+  .sorteo-accordion .card-header {
+    padding: 0;
+    border-radius: 999px;
+    -webkit-border-radius: 999px;
+    -moz-border-radius: 999px;
+    -ms-border-radius: 999px;
+    -o-border-radius: 999px;
+  }
+  .sorteo-accordion .card-header .btn-link {
+    padding: 10px 10px;
+    display: flex;
+    align-items: center;
+    width: 100%;
+    text-align: left;
+    color: #fff;
+    font-size: 18px;
+    font-weight: 600;
+    text-transform: uppercase;
+    background-color: #1c294e;
+    box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.4);
+    position: relative;
+    border-radius: 50px;
+  }
+
+  .sorteo-accordion .card-header .btn-link.collapsed::before {
+    position: absolute;
+    content: "\f107";
+    font-family: 'Font Awesome 5 Free';
+    font-weight: 900;
+    top: 15px;
+    right: 30px;
+    font-size: 22px;
+    color: #85878f;
+  }
+  .sorteo-accordion .card-header .btn-link::before {
+    position: absolute;
+    content: "\f106";
+    font-size: 22px;
+    font-family: 'Font Awesome 5 Free';
+    font-weight: 900;
+    top: 15px;
+    right: 30px;
+    color: #85878f;
+  }
+  .sorteo-accordion .card .card-header {
+    border: none;
+  }
+  .sorteo-accordion .card-body {
+    margin-top: 10px;
+    padding: 20px 50px;
+  }
+  .sorteo-accordion .card-header .btn-link:hover,
+  .sorteo-accordion .card-header .btn-link:focus {
+    text-decoration: none;
+  }
+  .sorteo-accordion .card-header .btn-link i {
+    width: 40px;
+    height: 40px;
+    font-size: 24px;
+    background: #31b3f6;
+    box-shadow: -0.707px 0.707px 9.5px 0.5px rgba(6, 97, 144, 0.3);
+    border-color: 1px solid rgba(198, 198, 198, 0.5);
+    color: #ffffff;
+    text-align: center;
+    line-height: 40px;
+    margin-right: 20px;
+    border-radius: 50%;
+  }
+  .sorteo-accordion .card {
+    border: none;
+    box-shadow: 0px 0px 10px 0px rgba(51, 55, 69, 0.2);
+    border-radius: 30px;
+  }
+  .accordion .card:not(:first-of-type):not(:last-of-type),
+  .accordion .card:last-of-type {
+    border-radius: 30px;
+    -webkit-border-radius: 30px;
+    -moz-border-radius: 30px;
+    -ms-border-radius: 30px;
+    -o-border-radius: 30px;
+  }
+  
+  .accordion .card:first-of-type {
+    border-radius: 30px;
+    -webkit-border-radius: 30px;
+    -moz-border-radius: 30px;
+    -ms-border-radius: 30px;
+    -o-border-radius: 30px;
+  }
+  .sorteo-accordion .card+.card {
+    margin-top: 15px;
+  }
+  /* faq-section css end */

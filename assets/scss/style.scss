@@ -1,0 +1,90 @@
+
+/*========	Table of Css Content ==========*/
+/* Typography */
+/* Normalize  */
+/* Global style */
+/* Breadcrumb Area Start */
+/* Header Area Start */
+/* Footer Area Start */
+/* Hero Area Start */
+/* Features Area Start */
+/* Featured Game Area Start */
+/* Whay Choose us Area Start */
+/* activities Area Start */
+/* Fun fact Area Start */
+/* Get Start Area Start */
+/*  Recent Winners Area Start */
+/*	Index 2 Css Start */
+/* About Area Start */
+/* About page section Area Start */
+/* Our Vision Area Start */
+/* Team Area Start */
+/* community and Blog Area Start */
+/* Play Games Area Start */
+/* Lottery Staticstics Area Start */
+/*  How it Work Area Start  */
+/* lottery video Area Start */
+/* Questions Area Start */
+/* Cart Area Start */
+/* Payment-method Area Start */
+/* Tournaments Area Start */
+/* Bonuses Area Start */
+/*Deposit Bonuses Area Start */
+/* Bonus banner Area Start */
+/* Awards Area Start */
+/*  How Play Area Start */
+/*  Affiliate Process area Start */
+/* Features Area Start */
+/* Ref Commission Area Start  */
+/* Marketing Tools Area Start */
+/*Testimonial Area CSS Start*/
+/* Serch Area Start */
+/* Help Section Area Start */
+/* Contact Area Start */
+/* 404 Area Start */
+/* faq-section css start */
+/* login modal Area Start */
+
+
+/* =========================
+=============================
+ */
+
+
+
+// Sass Global
+@import "main/variables";
+@import "main/mixins";
+@import "main/normalize";
+@import "main/animation";
+@import "main/global";
+
+// Sass Sections
+@import "sections/_header";
+@import "sections/_footer";
+
+// Sass page
+@import "pages/_home-page";
+@import "pages/_index2";
+@import "pages/_about";
+@import "pages/_play";
+@import "pages/_lottery";
+@import "pages/_cart";
+@import "pages/_tournaments";
+@import "pages/_bonus";
+@import "pages/_awards";
+@import "pages/_how-it-work";
+@import "pages/_affiliate";
+@import "pages/_trams-condition";
+@import "pages/_contact";
+@import "pages/_fourzero";
+@import "pages/_faq";
+@import "pages/_log-sign";
+
+
+
+
+
+
+
+

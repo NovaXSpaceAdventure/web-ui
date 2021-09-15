@@ -1,0 +1,340 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+	<meta http-equiv="X-UA-Compatible" content="ie=edge">
+	<meta name="forntEnd-Developer" content="Mamunur Rashid">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title> NovaX - My Planets</title>
+	<!-- favicon -->
+	<link rel="shortcut icon" href="assets/images/favicon.png" type="image/x-icon">
+	<!-- bootstrap -->
+	<link rel="stylesheet" href="assets/css/bootstrap.min.css">
+	<!-- Plugin css -->
+	<link rel="stylesheet" href="assets/css/plugin.css">
+
+	<!-- stylesheet -->
+	<link rel="stylesheet" href="assets/css/style.css">
+	<!-- responsive -->
+	<link rel="stylesheet" href="assets/css/responsive.css">
+</head>
+
+<body>
+	<!-- preloader area start -->
+	<div class="preloader" id="preloader">
+		<div class="loader loader-1">
+			<div class="loader-outter"></div>
+			<div class="loader-inner"></div>
+		</div>
+	</div>
+	<!-- preloader area end -->
+
+	<!-- Header Area Start  -->
+	<header class="header">
+		
+		<!--Main-Menu Area Start-->
+		<div class="mainmenu-area">
+			<div class="container">
+				<div class="row">
+					<div class="col-lg-12">                 
+						<nav class="navbar navbar-expand-lg navbar-light">
+							<a class="navbar-brand" href="index.html">
+								<h2 class="title">
+									Nova<span style="color: #f9314b">X</span>
+							</h2>
+							</a>
+							<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#main_menu" aria-controls="main_menu"
+								aria-expanded="false" aria-label="Toggle navigation">
+								<span class="navbar-toggler-icon"></span>
+							</button>
+							<div class="collapse navbar-collapse fixed-height" id="main_menu">
+								<ul class="navbar-nav ml-auto">
+									
+									<li class="nav-item">
+										<a class="nav-link" href="index.html">Home
+												<div class="mr-hover-effect"></div></a>
+									</li>
+									<li class="nav-item">
+										<a class="nav-link active" href="planets.html">Planet
+												<div class="mr-hover-effect"></div></a>
+									</li>
+									<li class="nav-item">
+										<a class="nav-link " href="universe.html">Universe
+												<div class="mr-hover-effect"></div></a>
+									</li>
+									
+								</ul>
+								<a href="#" class="mybtn1" style="display:none;"  id="connectWalletView"> Connect Wallet</a>
+								<a href="#" class="mybtn1" style="display:none;" id="accountView"> </a>
+							</div>
+						</nav>
+					</div>
+				</div>
+			</div>
+		</div>
+		<!--Main-Menu Area Start-->
+	</header>
+	<!-- Header Area End  -->
+
+
+
+
+
+
+	<!-- Team Area Start -->
+	<section class="team">
+	
+
+		<div class="top-area">
+			<div class="container">
+				<div class="row justify-content-center">
+					<div class="col-lg-8 col-md-10">
+						<div class="section-heading">
+							<h5 class="subtitle">
+							list of your
+							</h5>
+							<h2 class="title">
+									Planets
+							</h2>
+							<p class="text">
+									Here is the list of planets you own. You may click and go to planet detail page for building or harvesting. 
+							</p>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class="team-members">
+			<div class="container">
+				<div class="row">
+					<div class="col-lg-12">
+						<div class="team-member-inner" id="planetsDiv">
+							<h5 class="subtitle">
+							Loading your nfts...
+							</h5>
+						</div>
+					</div>
+				</div>
+				<div class="row">
+					<div class="col-lg-12 text-center">
+						<a href="index.html#planetCreatorSection" class="mybtn1">MINT NEW PLANET</a>
+					</div>
+				</div>
+
+			</div>
+		</div>
+	</section>
+	<!-- Latest Activities Area Start -->
+	<section class="activities" id="bottomControlPanel" style="display: none;">
+
+		<div class="container">
+			
+			<div class="row">
+				<div class="col-lg-12">
+					<div class="tab-menu-area">
+						<ul class="nav nav-lend mb-3" id="pills-tab" role="tablist">
+				
+							<li class="nav-item">
+								<a class="nav-link" id="pills-my-bets-tab" data-toggle="pill" href="#pills-my-bets" role="tab" aria-controls="pills-my-bets" aria-selected="false">Total Resources</a>
+							</li>
+					
+						</ul>
+					</div>
+					<div class="tab-content" id="pills-tabContent">
+			
+						<div class="tab-pane fade show active" id="pills-my-bets" role="tabpanel" aria-labelledby="pills-my-bets-tab">
+							<div class="responsive-table">
+									<table class="table">
+									<thead>
+										<tr>
+										<th scope="col">Planets#</th>
+										<th scope="col">Solar</th>
+										<th scope="col">Metal</th>
+										<th scope="col">Crystal</th>
+										<th scope="col">Harvest</th>
+
+										</tr>
+									</thead>
+									<tbody id="resourcesTable">
+										
+									</tbody>
+									</table>
+								</div>
+				
+						</div>
+						
+					</div>
+				</div>
+			</div>
+		</div>
+		<!-- How it Work Area Start -->
+		<div class="how-it-work">
+			<img class="bg-shape" src="assets/images/howitwork/bg-shape.png" alt="">
+		
+		</div>
+		<!-- How it Work Area Start -->
+	</section> 
+	<!-- Latest Activities Area End -->
+	<!-- Team Area End -->
+
+
+	<!-- Login Area Start -->
+	<div class="modal fade login-modal" id="login" tabindex="-1" role="dialog" aria-labelledby="login" aria-hidden="true">
+		<div class="modal-dialog modal-dialog-centered" role="document">
+		<div class="modal-content">
+			<button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+			<div class="modal-body">
+				<div class="logo-area">
+						<img class="logo" src="assets/images/logo.png" alt="">
+				</div>
+				<div class="header-area">
+					<h4 class="title">Great to have you back!</h4>
+					<p class="sub-title">Enter your details below.</p>
+				</div>
+				<div class="form-area">
+					<form action="#"  method="POST">
+						<div class="form-group">
+								<label for="login-input-email">Email*</label>
+								<input type="email" class="input-field" id="login-input-email"  placeholder="Enter your Email">
+						</div>
+						<div class="form-group">
+								<label for="login-input-password">Password*</label>
+								<input type="password" class="input-field" id="login-input-password"  placeholder="Password">
+						</div>
+						<div class="form-group">
+							<div class="box">
+								<div class="left">
+										<input type="checkbox" class="check-box-field" id="input-save-password" checked>
+									<label for="input-save-password">Remember Password</label>
+								</div>
+								<div class="right">
+									<a href="#">
+										Forgot Password?
+									</a>
+								</div>
+							</div>
+						</div>
+						<div class="form-group">
+							   <button type="submit" class="mybtn1">Log In</button>
+						</div>
+					</form>
+				</div>
+				<div class="form-footer">
+					<p>Not a member? 
+							<a href="#">Create account <i class="fas fa-angle-double-right"></i></a>
+					</p>
+				</div>
+			</div>
+		</div>
+		</div>
+	</div>
+	<!-- Login Area End -->
+
+	<!-- SignIn Area Start -->
+	<div class="modal fade login-modal sign-in" id="signin" tabindex="-1" role="dialog" aria-labelledby="signin" aria-hidden="true">
+			<div class="modal-dialog modal-dialog-centered " role="document">
+			<div class="modal-content">
+				<button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+				<div class="modal-body">
+					<div class="logo-area">
+							<img class="logo" src="assets/images/logo.png" alt="">
+					</div>
+					<div class="header-area">
+						<h4 class="title">Great to have you back!</h4>
+						<p class="sub-title">Enter your details below.</p>
+					</div>
+					<div class="form-area">
+						<form action="#" method="POST">
+							<div class="form-group">
+									<label for="input-name">Name*</label>
+									<input type="text" class="input-field" id="input-name"  placeholder="Enter your Name">
+							</div>
+							<div class="form-group">
+									<label for="input-email">Email*</label>
+									<input type="email" class="input-field" id="input-email"  placeholder="Enter your Email">
+							</div>
+							<div class="form-group">
+									<label for="input-password">Password*</label>
+									<input type="password" class="input-field" id="input-password"  placeholder="Enter your password">
+							</div>
+							<div class="form-group">
+									<label for="input-con-password">confirm password**</label>
+									<input type="password" class="input-field" id="input-con-password"  placeholder="Enter your Confirm Password">
+							</div>
+							<div class="form-group">
+									<select>
+										<option value="0">BTC</option>
+										<option value="1">USD</option>
+										<option value="2">EUR</option>
+									</select>
+							</div>
+							<div class="form-group">
+								<div class="check-group">
+										<input type="checkbox" class="check-box-field" id="input-terms" checked>
+										<label for="input-terms">
+												I agree with <a href="#">terms and Conditions</a> and  <a href="#">privacy policy</a>
+										</label>
+								</div>
+							</div>
+							<div class="form-group">
+								<button type="submit" class="mybtn1">Take Bonus</button>
+							</div>
+						</form>
+					</div>
+				</div>
+			</div>
+			</div>
+		</div>
+	<!-- SignIn Area End -->
+
+	<!-- jquery -->
+	<script src="assets/js/jquery.js"></script>
+	<!-- popper -->
+	<script src="assets/js/popper.min.js"></script>
+	<!-- bootstrap -->
+	<script src="assets/js/bootstrap.min.js"></script>
+	<!-- plugin js-->
+	<script src="assets/js/plugin.js"></script>
+
+	<!-- MpusemoverParallax JS-->
+	<script src="assets/js/TweenMax.js"></script>
+	<script src="assets/js/mousemoveparallax.js"></script>
+	<!-- main -->
+	<script src="assets/js/main.js"></script>
+
+
+	<script src="assets/js/dist/web3.min.js"></script>
+	<script src="assets/js/loader.js"></script>
+	<script src="assets/js/metamask3.js"></script>
+	<script src="assets/js/contracts/gameContract2.js"></script>
+	<script src="assets/js/contracts/planetContract.js"></script>
+	<script src="assets/js/planets3.js"></script>
+
+	<script type="module">
+  // Import the functions you need from the SDKs you need
+  import { initializeApp } from "https://www.gstatic.com/firebasejs/9.0.0/firebase-app.js";
+  import { getAnalytics } from "https://www.gstatic.com/firebasejs/9.0.0/firebase-analytics.js";
+  // TODO: Add SDKs for Firebase products that you want to use
+  // https://firebase.google.com/docs/web/setup#available-libraries
+
+  // Your web app's Firebase configuration
+  // For Firebase JS SDK v7.20.0 and later, measurementId is optional
+  const firebaseConfig = {
+    apiKey: "AIzaSyBXtrdZFM6I999PQkRekOSEoy_mEMS0NkE",
+    authDomain: "novax-3b83c.firebaseapp.com",
+    projectId: "novax-3b83c",
+    storageBucket: "novax-3b83c.appspot.com",
+    messagingSenderId: "788622025872",
+    appId: "1:788622025872:web:1bc88fff6f6a569f342415",
+    measurementId: "G-8NJRN3HL5Z"
+  };
+
+  // Initialize Firebase
+  const app = initializeApp(firebaseConfig);
+  const analytics = getAnalytics(app);
+</script>
+</body>
+
+</html>
